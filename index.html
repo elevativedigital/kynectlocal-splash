@@ -7,7 +7,8 @@
   <meta name="description" content="The all-in-one platform for multi-location brands. Unified brand control, smart distribution, AI content, and network analytics. Now in private beta.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="any" href="kynectlocal-badge.png">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -28,7 +29,7 @@
     body {
       background-color: var(--navy);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 16px;
       line-height: 1.6;
       overflow-x: hidden;
@@ -119,8 +120,14 @@
       text-decoration: none;
     }
 
+    .logo img {
+      height: 34px;
+      width: auto;
+      display: block;
+    }
+
     .logo-text {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 800;
       font-size: 1.25rem;
       background: linear-gradient(90deg, var(--purple), var(--cyan));
@@ -138,7 +145,7 @@
       border-radius: 50px;
       background: linear-gradient(135deg, var(--purple), var(--cyan));
       color: #fff;
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 600;
       font-size: 0.875rem;
       text-decoration: none;
@@ -184,7 +191,7 @@
     }
 
     .hero-headline {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 800;
       font-size: clamp(2.5rem, 7vw, 5rem);
       line-height: 1.1;
@@ -273,7 +280,7 @@
       border: 1px solid var(--glass-border);
       background: rgba(255, 255, 255, 0.06);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 0.9375rem;
       outline: none;
       transition: border-color 0.2s, background 0.2s;
@@ -326,7 +333,7 @@
 
     .section-title {
       text-align: center;
-      font-family: 'Syne', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 800;
       font-size: clamp(1.75rem, 4vw, 2.75rem);
       letter-spacing: -0.025em;
@@ -374,7 +381,7 @@
     }
 
     .feature-title {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 700;
       font-size: 1.125rem;
       margin-bottom: 10px;
@@ -419,7 +426,7 @@
     }
 
     .cta-title {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 800;
       font-size: clamp(1.5rem, 3.5vw, 2.25rem);
       letter-spacing: -0.025em;
@@ -492,25 +499,7 @@
     <div class="container">
       <div class="header-inner">
         <a href="#" class="logo">
-          <!-- KynectLocal icon: 4 circles in N/S/E/W cross with gradient -->
-          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <defs>
-              <linearGradient id="lg-logo" x1="0" y1="0" x2="34" y2="34" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stop-color="#9B5CF6"/>
-                <stop offset="100%" stop-color="#00D4FF"/>
-              </linearGradient>
-            </defs>
-            <!-- Center connector -->
-            <circle cx="17" cy="17" r="3.5" fill="url(#lg-logo)" opacity="0.6"/>
-            <!-- North -->
-            <circle cx="17" cy="6" r="5.5" fill="url(#lg-logo)"/>
-            <!-- South -->
-            <circle cx="17" cy="28" r="5.5" fill="url(#lg-logo)" opacity="0.75"/>
-            <!-- West -->
-            <circle cx="6" cy="17" r="5.5" fill="url(#lg-logo)" opacity="0.85"/>
-            <!-- East -->
-            <circle cx="28" cy="17" r="5.5" fill="url(#lg-logo)" opacity="0.9"/>
-          </svg>
+          <img src="kynectlocal.svg" alt="KynectLocal logo">
           <span class="logo-text">KynectLocal</span>
         </a>
         <a href="#early-access" class="btn-cta">
@@ -766,11 +755,6 @@
     <div class="container">
       <div class="footer-inner">
         <span class="footer-copy">&copy; 2026 KynectLocal. All rights reserved.</span>
-        <ul class="footer-links">
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="mailto:hello@kynectlocal.com">Contact</a></li>
-        </ul>
       </div>
     </div>
   </footer>
